@@ -32,5 +32,9 @@ Iranian License Plate Detection is an object detection project with the Yolov7 m
  ````
  Now, the code is ready and you can run it. It will show you the video with license detection also you could find the cropped detected licenses and their annotaion files in license_plate and license_index directories. They will be used in reading the numbers of license plates.
  # Some results
- <img src="Image/14_jpg.rf.5c50750acd32e9465a6dd18d1d420caa.jpg" width= "400">  <img src="Image/215.jpg" width="500">
+ <img src="Image/42_jpg.rf.8dc63841b23614975ff249f55a5b9420.jpg" width= "400">  <img src="Image/7.jpg" width="500">
  
+# Source
+- https://colab.research.google.com/drive/1X9A8odmK4k6l26NDviiT6dd6TgR-piOa
+- https://github.com/WongKinYiu/yolov7
+
