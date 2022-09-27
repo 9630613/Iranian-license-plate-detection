@@ -9,13 +9,14 @@ Iranian License Plate Detection is an object detection project with the Yolov7 m
 - Dataset
  - Installation
  - Usage
+ - Train your model!
  - Some results
  - License
  
  # What will you learn this project
  - How to annotate the dataset
  - How to train a Yolo model on colab
- - License detecting a videocamera on pycharme
+ - License detecting a videocamera 
  # Dataset
  The pretrained dataset :
  https://www.kaggle.com/datasets/andrewmvd/car-plate-detection
@@ -30,7 +31,9 @@ Iranian License Plate Detection is an object detection project with the Yolov7 m
  ````python
  cap = cv2.VideoCapture('video.mp4 or camera')  # input of video
  ````
- Now, the code is ready and you can run it. It will show you the video with license detection also you could find the cropped detected licenses and their annotaion files in license_plate and license_index directories. They will be used in reading the numbers of license plates.
+ Now, the code is ready and you can run it. It will show you the video with license detection also you could find the cropped detected license plates and their annotaion files in license_plate and license_index directories. They will be used in reading the numbers of license plates.
+ # Train your model!
+ 
  # Some results
  <img src="Image/42_jpg.rf.8dc63841b23614975ff249f55a5b9420.jpg" width= "500">    <img src="Image/7.jpg" width="500">
  
