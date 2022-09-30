@@ -5,7 +5,7 @@
 
 Iranian License Plate Detection is an object detection project with the Yolov7 model (the Yolov5 is also trained) which is very precise on different types of license plates such as the colored background one or various occasions like the dirty cars. Due to the limitaion in Iranian license plate dataset, the model is trained by trasfer learinig with the biger forigen dataset. 
 # Table of content
-- [Dataset](#dataset)
+- [Dataset](#Dataset)
 - [Installation](#Installation)
 - [Usage](#Usage)
 - [Some results](#Some-results)
