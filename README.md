@@ -3,7 +3,7 @@
 
 
 
-Iranian License Plate Detection is an object detection project with the Yolov7 model (the Yolov5 is also trained) which is very precise on different types of license plates such as the colored background one or various occasions like the dirty cars. Due to the limitaion in Iranian license plate dataset, the model is trained by trasfer learinig with the biger forigen dataset. 
+Iranian License Plate Detection is an object detection project with Yolov7 (Yolov5 is also trained) that is very precise in different types of license plates such as the colour background ones or various occasions like the dirty cars. Due to the limitaion in Iranian license plate dataset, the model is trained by transfer learinig with the biger foreign dataset. 
 # Table of content
 - [Dataset](#Dataset)
 - [Installation](#Installation)
@@ -17,16 +17,16 @@ Iranian License Plate Detection is an object detection project with the Yolov7 m
  https://www.kaggle.com/datasets/andrewmvd/car-plate-detection
  # Installation
  # Usage
- First, you should adress the best.pt file and the Yolo directory to this part of the code
+ First, you should address the best.pt file and the Yolo directory to this part of the code
  
  ````python
  model = torch.hub.load('directory of yolo file', 'custom', 'best.pt', source='local')
  ````
- Then, adress the video or connected camera
+ Then, address the video or connected camera
  ````python
  cap = cv2.VideoCapture('video.mp4 or camera')  # input of video
  ````
- Now, the code is ready and you can run it. It will show you the video with license detection also you could find the cropped detected license plates and their annotaion files in license_plate and license_index directories. They will be used in reading the numbers of license plates.
+ Now, the code is ready and you can run it. It will show you the video with license detection. also, you could find the cropped detected license plates and their annotaion files in license_plate and license_index directories. They will be used if you want to read the numbers of license plates.
 
  
  # Some results
